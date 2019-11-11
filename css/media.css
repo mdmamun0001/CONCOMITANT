@@ -1,0 +1,144 @@
+
+ /*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+/*header*/
+.brand {
+    font-size: 22px;
+   
+}
+.menu ul li a {
+	text-align: right;
+
+}
+.devider{
+         text-align: right;
+	/*color: white!important;*/
+}
+.menu ul {
+     padding-top: 0px; 
+    /* margin-top: 75px; */
+}
+/*header*/
+.form {
+    margin-top: 10px;
+}
+/*service*/
+.s_content h1{
+    margin-top: 0px;
+}
+.s_content p{
+    margin-top: 0px;
+}
+/*footer*/
+.quick-link ul {
+    margin: 16px 0;
+}
+.text{
+    font-size: 13px;
+}
+}
+ /*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+/*header*/
+.menu ul li a {
+	text-align: right;
+
+}
+.devider{
+         text-align: right;
+	/*color: white!important;*/
+}
+.menu ul {
+     padding-top: 0px; 
+    /* margin-top: 75px; */
+}
+/*header*/
+.form {
+    margin-top: 10px;
+}
+/*service*/
+.s_content h1{
+    margin-top: 10px;
+}
+.s_content p{
+    margin-top: 0px;
+}
+/*overlay*/
+.overlay-content i{
+    margin-top: 35px;
+}
+.overlay-content h1 {
+    font-size: 18px;
+    color: white;
+    margin-top: 10px;
+}
+
+/*footer*/
+.quick-link ul {
+    margin: 16px 0;
+}
+.text{
+    font-size: 13px;
+}
+}
+
+ 
+
+ /*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+/*header*/
+.box2 ul li {
+    padding: 0px 8px;
+}
+.menu ul li a {
+	text-align: right;
+
+}
+.devider{
+         text-align: right;
+	/*color: white!important;*/
+}
+.mrgn-tp{
+
+       margin-top: 46px;
+    }
+.menu ul {
+     padding-top: 0px; 
+    /* margin-top: 75px; */
+}
+/*header*/
+.form {
+    margin-top: 10px;
+}
+/*overlay*/
+.overlay-content i{
+    margin-top: 30px;
+}
+
+.overlay-content h1 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+/*footer*/
+.quick-link ul {
+    margin: 16px 0;
+}
+.text{
+    font-size: 13px;
+}
+ }
+
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+/*header*/
+.box2 ul li {
+    padding: 0px 5px;
+}
+}	
+ /*Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+
+ }
